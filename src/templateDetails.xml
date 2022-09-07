@@ -11,6 +11,7 @@
 	<description>J4 template for Tafeltennisactua.be</description>
 	<files>
 		<filename>index.php</filename>
+		<filename>joomla.asset.json</filename>
 		<filename>templateDetails.xml</filename>
 	</files>
 	<media destination="templates/site/ttactua" folder="media">
