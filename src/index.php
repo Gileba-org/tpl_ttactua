@@ -2,7 +2,7 @@
 	defined('_JEXEC') or die('Restricted access');
 
 	$wa = $this->getWebAssetManager();
-	$wa->useStyle('template.ttactua.base');
+	$wa->useStyle('template.ttactua.article');
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" >

@@ -9,6 +9,12 @@
 	  "name": "template.ttactua.base",
 	  "type": "style",
 	  "uri": "template.css"
+	},
+	{
+	  "name": "template.ttactua.article",
+	  "type": "style",
+	  "uri": "article.css",
+	  "dependencies": "template.ttactua.base"
 	}
   ]
 }
