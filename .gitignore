@@ -703,3 +703,6 @@
 /README.txt
 /robots.txt.dist
 /web.config.txt
+.DS_Store
+.nova/Configuration.json
+.nova/Publishing/Gileba.json
