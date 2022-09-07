@@ -1,0 +1,34 @@
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	padding-inline-start: 0;
+	list-style-type: none;
+
+	li {
+		margin-right: 5px;
+
+		font: {
+			family: "Oswald";
+			size: 0.9em;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+		border-radius: 20px;
+		padding: 3px 15px 5px 15px;
+	}
+
+	.tag-team {
+		background-color: #93c47d;
+	}
+
+	.tag-player {
+		background-color: #6fa8dc;
+	}
+
+	.tag-competition {
+		background-color: #ffac57;
+	}
+}

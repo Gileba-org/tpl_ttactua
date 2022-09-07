@@ -14,7 +14,15 @@
 	  "name": "template.ttactua.article",
 	  "type": "style",
 	  "uri": "article.css",
-	  "dependencies": "template.ttactua.base"
+	  "dependencies": [
+		  "template.ttactua.base",
+		  "template.ttactua.tags"
+		]
+	},
+	{
+	  "name": "template.ttactua.tags",
+	  "type": "style",
+	  "uri": "tags.css"
 	}
   ]
 }
