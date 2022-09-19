@@ -10,6 +10,7 @@
 			"Image Image Image"
 			"Intro Intro Intro"
 			". . Readmore";
+		gap: 20px;
 		grid-template-columns: 80px auto 150px;
 		padding-bottom: 20px;
 		border-bottom: 2px solid variables.$blue;
@@ -20,7 +21,6 @@
 				"Image Image Intro Intro"
 				"Image Image . Readmore";
 			grid-template-columns: 80px 30% auto 150px;
-			gap: 20px;
 		}
 
 		figure {
