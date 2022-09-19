@@ -1,0 +1,35 @@
+@use "variables";
+@use "oswald";
+@use "roboto";
+
+.contentheader {
+	display: grid;
+	gap: 50px;
+	grid-template-columns: 1fr 1fr;
+
+	div {
+
+		h3 {
+			background-color: lighten(variables.$blue, 25%);
+			color: white;
+			padding: 5px 0;
+			text-align: center;
+			border-radius: 10px;
+			font-family: Roboto;
+			letter-spacing: 0.1em;
+			text-shadow: variables.$blue 2px 2px 10px;
+		}
+
+		ul {
+			list-style-type: none;
+			width: 100%;
+			padding-inline-start: 0;
+			font-family: Oswald;
+
+			a {
+				color: var(--text-color);
+				text-decoration: none;
+			}
+		}
+	}
+}

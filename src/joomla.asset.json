@@ -52,6 +52,14 @@
 	  "dependencies": [
 		  "template.ttactua.base"
 		]
+	},
+	{
+	  "name": "template.ttactua.contentheader",
+	  "type": "style",
+	  "uri": "contentheader.css",
+	  "dependencies": [
+		  "template.ttactua.base"
+		]
 	}
   ]
 }

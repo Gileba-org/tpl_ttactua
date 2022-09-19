@@ -18,4 +18,7 @@
 		<folder>css</folder>
 		<folder>scss</folder>
 	</media>
+	<positions>
+	<position>content-header</position>
+	</positions>
 </extension>
