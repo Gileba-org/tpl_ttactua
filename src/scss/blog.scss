@@ -1,0 +1,76 @@
+@use "variables";
+@use "contentcommon";
+@use "button";
+
+.blog {
+	.item-content {
+		display: grid;
+		grid-template-areas:
+			"Date Titel Titel"
+			"Image Image Image"
+			"Intro Intro Intro"
+			". . Readmore";
+		grid-template-columns: 80px auto 150px;
+		padding-bottom: 20px;
+		border-bottom: 2px solid variables.$blue;
+
+		@media (min-width: 600px) {
+			grid-template-areas:
+				"Date Titel Titel Titel"
+				"Image Image Intro Intro"
+				"Image Image . Readmore";
+			grid-template-columns: 80px 30% auto 150px;
+			gap: 20px;
+		}
+
+		figure {
+			align-self: start;
+			grid-area: Image;
+		}
+
+		img {
+			border-radius: 20px;
+		}
+
+		.page-header {
+			grid-area: Titel;
+			align-self: center;
+		}
+
+		h2 {
+			line-height: 1.2em;
+
+			a {
+				color: var(--text-color);
+				text-decoration: none;
+			}
+		}
+		.introtext {
+			grid-area: Intro;
+			padding-top: 20px;
+
+			p {
+					font-weight: normal;
+					font-size: 1em;
+					margin-block-end: 0;
+			}
+		}
+
+		.readmore {
+			@include button.readmore;
+			grid-area: Readmore;
+			justify-self: end;
+			align-self: end;
+		}
+
+		.ball {
+			grid-area: Date;
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
+	.tags {
+		display: none;
+	}
+}

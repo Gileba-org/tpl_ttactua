@@ -1,3 +1,5 @@
+@use "variables";
+
 .tags {
 	display: flex;
 	flex-wrap: wrap;
@@ -25,7 +27,7 @@
 	}
 
 	.tag-player {
-		background-color: #6fa8dc;
+		background-color: lighten(variables.$blue, 30%);
 	}
 
 	.tag-competition {

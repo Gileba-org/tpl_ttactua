@@ -16,13 +16,42 @@
 	  "uri": "article.css",
 	  "dependencies": [
 		  "template.ttactua.base",
-		  "template.ttactua.tags"
+		  "template.ttactua.tags",
+		  "template.ttactua.date",
+		  "template.ttactua.results"
 		]
 	},
 	{
 	  "name": "template.ttactua.tags",
 	  "type": "style",
 	  "uri": "tags.css"
+	},
+	{
+	  "name": "template.ttactua.date",
+	  "type": "style",
+	  "uri": "date.css"
+	},
+	{
+	  "name": "template.ttactua.results",
+	  "type": "style",
+	  "uri": "results.css"
+	},
+	{
+	  "name": "template.ttactua.blog",
+	  "type": "style",
+	  "uri": "blog.css",
+	  "dependencies": [
+		  "template.ttactua.base",
+		  "template.ttactua.date"
+		]
+	},
+	{
+	  "name": "template.ttactua.featured",
+	  "type": "style",
+	  "uri": "featured.css",
+	  "dependencies": [
+		  "template.ttactua.base"
+		]
 	}
   ]
 }

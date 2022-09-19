@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:wght@200,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@200,400,700&display=swap');
+
+@mixin reset-a {
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-family: Oswald;
+	text-shadow: rgb(221, 221, 221) 8px 8px 8px;
+	@media (min-width: 801px) {
+		letter-spacing: 0.02em;
+	}
+}
+
+figure {
+	position: relative;
+	margin: 0;
+
+	img {
+		border-radius: 15px;
+		width: 100%;
+	}
+
+	.caption {
+		font: {
+			family: Oswald;
+			size: 0.8em;
+		}
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		padding: 5px 10px;
+		background-color: rgba(192, 192, 192, .5);
+		color: white;
+		letter-spacing: 0.1em;
+	}
+}
+
+.introtext {
+	padding-top: 20px;
+	.ball {
+		float: left;
+		margin: 0 20px 20px 0;
+	}
+	p {
+		font: {
+			family: Roboto;
+			size: 1.25em;
+		}
+		margin-top: 0;
+		text-shadow: rgb(221, 221, 221) 8px 8px 8px;
+	}
+}
+
+.article-info {
+	display: none;
+}
+

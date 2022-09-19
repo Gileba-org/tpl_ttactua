@@ -1,60 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:wght@200,400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:wght@200,400,700&display=swap');
-
-h1 {
-	font-family: Oswald;
-	text-shadow: rgb(221, 221, 221) 8px 8px 8px;
-	@media (min-width: 801px) {
-		letter-spacing: 0.02em;
-	}
-}
+@use "contentcommon";
 
 .com-content-article {
 	padding: 0 20px;
-	max-width: 1000px;
-	margin: auto;
-
-	figure {
-		position: relative;
-		margin: 0;
-
-		img {
-			border-radius: 15px;
-			width: 100%;
-		}
-
-		.caption {
-			font: {
-				family: Oswald;
-				size: 0.8em;
-			}
-			position: absolute;
-			bottom: 10px;
-			right: 10px;
-			padding: 5px 10px;
-			background-color: rgba(192, 192, 192, .5);
-			color: white;
-			letter-spacing: 0.1em;
-		}
-	}
 
 	.com-content-article__body {
-		.introtext {
-			padding-top: 20px;
-			.ball {
-				float: left;
-				margin: 0 20px 20px 0;
-			}
-			p {
-				font: {
-					family: Roboto;
-					size: 1.25em;
-					weight: 700;
-				}
-				margin-top: 0;
-				text-shadow: rgb(221, 221, 221) 8px 8px 8px;
-			}
-		}
 		.fulltext {
 			clear: both;
 			font: {
@@ -69,64 +18,4 @@ h1 {
 			-ms-text-size-adjust: 100%;
 		}
 	}
-}
-
-.date-container {
-	background: radial-gradient(circle at 0 0,rgb(255,255,255), rgb(235,235,235));
-    border-radius: 50%;
-}
-
-.ball {
-  display: inline-block;
-  margin: 20px;
-  perspective: 1200px;
-  perspective-origin: 50% 50%;
-
-  .shadow {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-	transform: rotateX(90deg) translateZ(-40px);
-	z-index: -1;
-  }
-}
-
-.date-container {
-	display: grid;
-	grid-auto-flow: row;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto;
-	grid-template-areas: "month" "day" "year";
-	gap: 0px 0px;
-	font-family: Oswald;
-	justify-items: center;
-	align-items: center;
-	height: 74px;
-	width: 80px;
-	background-color: white;
-	padding: 3px 0;
-	line-height: 1.6em;
-
-	.month {
-		grid-area: month;
-		font-size: 1.2em;
-		font-weight: 400;
-	}
-
-	.year {
-		grid-area: year;
-		font-size: 0.8em;
-		font-weight: 200;
-	}
-
-	.day {
-		grid-area: day;
-		font-size: 2em;
-		font-weight: 700;
-	}
-}
-
-.article-info, .uitslag {
-	display: none;
 }
