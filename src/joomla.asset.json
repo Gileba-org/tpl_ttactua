@@ -42,7 +42,8 @@
 	  "uri": "blog.css",
 	  "dependencies": [
 		  "template.ttactua.base",
-		  "template.ttactua.date"
+		  "template.ttactua.date",
+		  "fontawesome"
 		]
 	},
 	{
@@ -60,6 +61,11 @@
 	  "dependencies": [
 		  "template.ttactua.base"
 		]
+	},
+	{
+	  "name": "fontawesome",
+	  "type": "style",
+	  "uri": "system/joomla-fontawesome.min.css"
 	}
   ]
 }
