@@ -44,6 +44,10 @@
 			a {
 				color: var(--text-color);
 				text-decoration: none;
+
+				@media (prefers-color-scheme: dark) {
+					color: var(--dark-text-color);
+				}
 			}
 		}
 		.introtext {
@@ -51,9 +55,9 @@
 			padding-top: 20px;
 
 			p {
-					font-weight: normal;
-					font-size: 1em;
-					margin-block-end: 0;
+				font-weight: normal;
+				font-size: 1em;
+				margin-block-end: 0;
 			}
 		}
 

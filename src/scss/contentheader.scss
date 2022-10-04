@@ -53,6 +53,9 @@
 					color: var(--text-color);
 					text-decoration: none;
 					font-size: 1.25em;
+					@media (prefers-color-scheme: dark) {
+							color: var(--dark-text-color);
+					}
 				}
 			}
 		}

@@ -12,6 +12,11 @@ h1, h2 {
 	@media (min-width: 801px) {
 		letter-spacing: 0.02em;
 	}
+
+	@media (prefers-color-scheme: dark) {
+		text-shadow: rgb(77, 79, 108) 8px 8px 8px;
+		color: var(--dark-text-color);
+	}
 }
 
 figure {
@@ -51,6 +56,11 @@ figure {
 		}
 		margin-top: 0;
 		text-shadow: rgb(221, 221, 221) 8px 8px 8px;
+
+		@media (prefers-color-scheme: dark) {
+			color: var(--dark-text-color);
+			text-shadow: rgb(77, 79, 108) 8px 8px 8px;
+		}
 	}
 }
 
