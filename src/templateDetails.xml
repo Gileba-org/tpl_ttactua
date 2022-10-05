@@ -19,6 +19,7 @@
 		<folder>scss</folder>
 	</media>
 	<positions>
+	<position>nav</position>
 	<position>content-header</position>
 	</positions>
 </extension>

@@ -54,6 +54,9 @@
 ?>
 	</head>
 	<body>
+		<div class="nav">
+			<jdoc:include type="modules" name="nav" />
+		</div>
 		<div class="contentheader">
 			<jdoc:include type="modules" name="content-header" />
 		</div>

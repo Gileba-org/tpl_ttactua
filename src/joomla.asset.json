@@ -8,7 +8,10 @@
 	{
 	  "name": "template.ttactua.base",
 	  "type": "style",
-	  "uri": "template.css"
+	  "uri": "template.css",
+	  "dependencies": [
+		  "template.ttactua.nav"
+	  ]
 	},
 	{
 	  "name": "template.ttactua.article",
@@ -61,6 +64,11 @@
 	  "dependencies": [
 		  "template.ttactua.base"
 		]
+	},
+	{
+	  "name": "template.ttactua.nav",
+	  "type": "style",
+	  "uri": "nav.css"
 	},
 	{
 	  "name": "fontawesome",
