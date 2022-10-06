@@ -78,4 +78,13 @@
 	.tags {
 		display: none;
 	}
+
+	.ai-next {
+		@include button.readmore;
+		color: white;
+		text-decoration: none;
+		font-family: Oswald;
+		width: intrinsic;
+		margin: 10px auto 0;
+	}
 }
