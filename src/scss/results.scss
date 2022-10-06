@@ -7,7 +7,7 @@
 	border: {
 		spacing: 0 0;
 		width: 3px;
-		color: variables.$blue;
+		color: variables.$base-color;
 		style: solid;
 	}
 	margin: 0 auto 50px;
@@ -21,9 +21,9 @@
 		border-bottom: {
 			width: 2px;
 			style: solid;
-			color: variables.$blue;
+			color: variables.$base-color;
 		}
-		background-color: variables.$blue;
+		background-color: variables.$base-color;
 		font-weight: bold;
 		width: 4%;
 		color: white;
@@ -31,7 +31,7 @@
 
 	td {
 		text-align: center;
-		border-bottom-color: lighten(variables.$blue, 30%);;
+		border-bottom-color: lighten(variables.$base-color, 30%);;
 		border-bottom-width: 1px;
 		border-bottom-style: dashed;
 		padding-right: 5px;
@@ -59,9 +59,9 @@
 	.winner {
 		color: var(--blue);
 		font-weight: bold;
-		color: variables.$blue;
+		color: variables.$base-color;
 		@media (prefers-color-scheme: dark) {
-			color: lighten(variables.$blue, 30%);
+			color: lighten(variables.$base-color, 30%);
 		}
 	}
 
@@ -71,7 +71,7 @@
 
 	.details {
 		text-align: left;
-		border-left-color: lighten(variables.$blue, 30%);;
+		border-left-color: lighten(variables.$base-color, 30%);;
 		border-left-style: solid;
 		border-left-width: 1px;
 		width: 16%;

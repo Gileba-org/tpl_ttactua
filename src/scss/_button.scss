@@ -2,7 +2,7 @@
 @use "oswald";
 
 @mixin readmore {
-	background-color: variables.$blue;
+	background-color: variables.$base-color;
 	padding: 3px 12px 6px;
 	border-radius: 20px;
 	box-shadow: 0 6px 9px rgba(0,0,0,0.2);

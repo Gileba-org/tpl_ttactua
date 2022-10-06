@@ -11,22 +11,22 @@
 	.dj-megamenu-accordion-light .dj-mobile-open-btn {
 		margin-right: 20px;
 		background-color: unset;
-		color: variables.$blue;
+		color: variables.$base-color;
 
 		&:hover, &.active span {
 			background-color: unset;
-			color: lighten(variables.$blue, 30%);
+			color: lighten(variables.$base-color, 30%);
 
 		}
 	}
 
 	ul.dj-mobile-light li.dj-mobileitem {
 		& > a {
-			background-color: lighten(variables.$blue, 60%);
+			background-color: lighten(variables.$base-color, 60%);
 		}
 
 		& > a:hover, &.active > a {
-			background-color: lighten(variables.$blue, 55%);
+			background-color: lighten(variables.$base-color, 55%);
 		}
 	}
 	.dj-megamenu-clean {
@@ -37,10 +37,10 @@
 
 		}
 		ul.dj-submenu li {
-			background-color: lighten(variables.$blue, 60%);
+			background-color: lighten(variables.$base-color, 60%);
 
 			& > a:hover, &.hover > a, &.active > a {
-				background-color: lighten(variables.$blue, 55%);
+				background-color: lighten(variables.$base-color, 55%);
 			}
 		}
 	}
