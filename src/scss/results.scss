@@ -60,6 +60,9 @@
 		color: var(--blue);
 		font-weight: bold;
 		color: variables.$blue;
+		@media (prefers-color-scheme: dark) {
+			color: lighten(variables.$blue, 30%);
+		}
 	}
 
 	.naam {
