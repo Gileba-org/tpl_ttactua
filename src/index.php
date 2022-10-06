@@ -54,8 +54,14 @@
 ?>
 	</head>
 	<body>
-		<div class="nav">
-			<jdoc:include type="modules" name="nav" />
+		<div class="header">
+			<div class="logo">
+				<img src="media/templates/site/ttactua/images/logo.jpg" />
+				<jdoc:include type="modules" name="logo" />
+			</div>
+			<div class="nav">
+				<jdoc:include type="modules" name="nav" />
+			</div>
 		</div>
 		<div class="contentheader">
 			<jdoc:include type="modules" name="content-header" />

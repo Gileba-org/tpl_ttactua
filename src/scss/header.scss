@@ -1,0 +1,13 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+
+	.logo {
+		padding-left: 20px;
+		img {
+			max-width: 120px;
+			border-radius: 20px;
+		}
+	}
+}

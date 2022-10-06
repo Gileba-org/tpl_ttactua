@@ -10,7 +10,8 @@
 	  "type": "style",
 	  "uri": "template.css",
 	  "dependencies": [
-		  "template.ttactua.nav"
+		  "template.ttactua.nav",
+		  "template.ttactua.header"
 	  ]
 	},
 	{
@@ -69,6 +70,11 @@
 	  "name": "template.ttactua.nav",
 	  "type": "style",
 	  "uri": "nav.css"
+	},
+	{
+	  "name": "template.ttactua.header",
+	  "type": "style",
+	  "uri": "header.css"
 	},
 	{
 	  "name": "fontawesome",

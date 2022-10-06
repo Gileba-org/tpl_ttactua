@@ -17,8 +17,10 @@
 	<media destination="templates/site/ttactua" folder="media">
 		<folder>css</folder>
 		<folder>scss</folder>
+		<folder>images</folder>
 	</media>
 	<positions>
+	<position>logo</position>
 	<position>nav</position>
 	<position>content-header</position>
 	</positions>
