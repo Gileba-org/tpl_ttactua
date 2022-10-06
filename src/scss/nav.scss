@@ -25,11 +25,19 @@
 			background-color: lighten(variables.$blue, 55%);
 		}
 	}
-	.dj-megamenu-clean ul.dj-submenu li {
-		background-color: lighten(variables.$blue, 60%);
+	.dj-megamenu-clean {
+		@media (prefers-color-scheme: dark) {
+			& > li > a .name, & > li > a .arrow {
+				color: white;
+			}
 
-		& > a:hover, &.hover > a, &.active > a {
-			background-color: lighten(variables.$blue, 55%);
+		}
+		ul.dj-submenu li {
+			background-color: lighten(variables.$blue, 60%);
+
+			& > a:hover, &.hover > a, &.active > a {
+				background-color: lighten(variables.$blue, 55%);
+			}
 		}
 	}
 }
