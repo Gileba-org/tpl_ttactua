@@ -56,7 +56,7 @@
 	<body>
 		<div class="header">
 			<div class="logo">
-				<img src="media/templates/site/ttactua/images/logo.jpg" />
+				<a href="" alt="Home"><img src="media/templates/site/ttactua/images/logo.jpg" /></a>
 				<jdoc:include type="modules" name="logo" />
 			</div>
 			<div class="nav">
