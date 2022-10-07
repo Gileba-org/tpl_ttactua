@@ -23,5 +23,6 @@
 	<position>logo</position>
 	<position>nav</position>
 	<position>content-header</position>
+	<position>footer</position>
 	</positions>
 </extension>

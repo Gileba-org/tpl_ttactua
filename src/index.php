@@ -75,5 +75,8 @@
 <?php
 	endif;
 ?>
+		<div class="footer">
+			<jdoc:include type="modules" name="footer" />
+		</div>
 	</body>
 </html>

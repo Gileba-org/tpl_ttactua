@@ -11,7 +11,8 @@
 	  "uri": "template.css",
 	  "dependencies": [
 		  "template.ttactua.nav",
-		  "template.ttactua.header"
+		  "template.ttactua.header",
+		  "template.ttactua.footer"
 	  ]
 	},
 	{
@@ -75,6 +76,11 @@
 	  "name": "template.ttactua.header",
 	  "type": "style",
 	  "uri": "header.css"
+	},
+	{
+	  "name": "template.ttactua.footer",
+	  "type": "style",
+	  "uri": "footer.css"
 	},
 	{
 	  "name": "fontawesome",
