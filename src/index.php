@@ -35,6 +35,8 @@
 						break;
 				}
 				break;
+			case "com_convertforms":
+				$wa->useStyle('template.ttactua.form');
 			default:
 				$wa->useStyle('template.ttactua.base');
 		}

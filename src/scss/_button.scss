@@ -3,11 +3,11 @@
 
 @mixin readmore {
 	background-color: variables.$base-color;
-	padding: 3px 12px 6px;
+	padding: 3px 12px 6px !important;
 	border-radius: 20px;
 	box-shadow: 0 6px 9px rgba(0,0,0,0.2);
 
-	a {
+	a, span {
 		color: white;
 		text-decoration: none;
 		font-family: Oswald;

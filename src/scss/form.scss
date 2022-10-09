@@ -1,0 +1,42 @@
+@use "variables";
+@use "button";
+
+.component {
+	.convertforms {
+		.cf-form-wrap {
+			padding: 0;
+
+			.contact-header {
+				margin: 50px 9px -1px;
+				border-top-left-radius: 20px;
+				border-top-right-radius: 20px;
+				h2 {
+					margin-block-end: 0;
+					text-shadow: lighten(variables.$base-color, 40%) 8px 8px 8px
+				}
+			}
+
+			.contact-header, .contact-text {
+				background-color: lighten(variables.$base-color, 30%);
+				padding: 0 50px;
+				color: white;
+
+				a {
+					text-decoration: none;
+					color: white;
+					font-weight: bold;
+				}
+			}
+
+			.contact-text {
+				margin: 0 9px 50px;
+				border-bottom-left-radius: 20px;
+				border-bottom-right-radius: 20px;
+			}
+
+			button {
+				@include button.readmore;
+			}
+		}
+	}
+}

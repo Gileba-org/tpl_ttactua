@@ -16,6 +16,14 @@
 	  ]
 	},
 	{
+	  "name": "template.ttactua.form",
+	  "type": "style",
+	  "uri": "form.css",
+		"dependencies": [
+			"template.ttactua.base"
+		]
+	},
+	{
 	  "name": "template.ttactua.article",
 	  "type": "style",
 	  "uri": "article.css",
