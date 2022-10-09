@@ -93,7 +93,11 @@ $isExpired         = !is_null($this->item->publish_down) && $this->item->publish
         endif; ?>
     <div itemprop="articleBody" class="com-content-article__body">
         <div class="introtext">
-        <?php echo LayoutHelper::render('joomla.content.info_block.publish_date', array('item' => $this->item, 'params' => $params, 'position' => 'below')); ?>
+        <?php
+            if ($params->get('show_modify_date') || $params->get('show_publish_date') || $params->get('show_create_date')) {
+                echo LayoutHelper::render('joomla.content.info_block.publish_date', array('item' => $this->item, 'params' => $params, 'position' => 'below'));
+            }
+        ?>
             <?php echo $this->item->introtext; ?>
         </div>
         <div class="fulltext">
