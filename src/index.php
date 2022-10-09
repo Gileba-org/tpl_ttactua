@@ -56,6 +56,7 @@
 ?>
 	</head>
 	<body>
+		<div style="display: none">Option: <?php echo $page['option'];?>; View: <?php echo $page['view']; ?>; Layout: <?php echo $page['layout'] ?>;</div>
 		<div class="header">
 			<div class="logo">
 				<a href="" alt="Home"><img src="media/templates/site/ttactua/images/logo.jpg" /></a>
