@@ -6,19 +6,6 @@
 	text-decoration: none;
 }
 
-h1, h2 {
-	font-family: Oswald;
-	text-shadow: rgb(221, 221, 221) 8px 8px 8px;
-	@media (min-width: 801px) {
-		letter-spacing: 0.02em;
-	}
-
-	@media (prefers-color-scheme: dark) {
-		text-shadow: rgb(77, 79, 108) 8px 8px 8px;
-		color: var(--dark-text-color);
-	}
-}
-
 figure {
 	position: relative;
 	margin: 0;
