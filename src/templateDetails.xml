@@ -10,6 +10,7 @@
 	<version>1.0.0-dev.1</version>
 	<description>J4 template for Tafeltennisactua.be</description>
 	<files>
+		<folder>html</folder>
 		<filename>index.php</filename>
 		<filename>joomla.asset.json</filename>
 		<filename>templateDetails.xml</filename>
