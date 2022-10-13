@@ -4,8 +4,8 @@
 	use Joomla\CMS\Factory;
 
 	$app = Factory::getApplication();
-	$menu 		= $app->getMenu();
-	$lang 		= $app->getLanguage();
+	$menu = $app->getMenu();
+	$lang = $app->getLanguage();
 	$page = $app->getRouter()->getVars();
 	$wa = $this->getWebAssetManager();
 
