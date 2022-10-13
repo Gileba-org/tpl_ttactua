@@ -11,5 +11,9 @@
 		color: white;
 		text-decoration: none;
 		font-family: Oswald;
+
+		&::before {
+			font-family: "Font Awesome 5 Free";
+		}
 	}
 }
