@@ -12,7 +12,8 @@
 	  "dependencies": [
 		  "template.ttactua.nav",
 		  "template.ttactua.header",
-		  "template.ttactua.footer"
+		  "template.ttactua.footer",
+		  "fontawesome"
 	  ]
 	},
 	{
@@ -55,9 +56,8 @@
 	  "uri": "blog.css",
 	  "dependencies": [
 		  "template.ttactua.base",
-		  "template.ttactua.date",
-		  "fontawesome"
-		]
+		  "template.ttactua.date"
+	  ]
 	},
 	{
 	  "name": "template.ttactua.featured",
@@ -65,7 +65,7 @@
 	  "uri": "featured.css",
 	  "dependencies": [
 		  "template.ttactua.base"
-		]
+	  ]
 	},
 	{
 	  "name": "template.ttactua.contentheader",
