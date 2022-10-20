@@ -46,6 +46,16 @@
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" >
    <head>
+<?php	if ($this->params->get('tagmanager')) {	?>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $this->params->get('tagmanager');	?>"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', '<?php echo $this->params->get('tagmanager'); ?>');
+		</script>
+<?php	}	?>
 		<jdoc:include type="metas" />
 		<jdoc:include type="styles" />
 		<jdoc:include type="scripts" />
@@ -53,6 +63,10 @@
 <?php
 		// Set viewport
 		$this->setMetaData('viewport', 'width=device-width, initial-scale=1');
+?>
+
+<?php
+
 ?>
 	</head>
 	<body>

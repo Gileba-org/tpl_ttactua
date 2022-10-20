@@ -22,9 +22,17 @@
 		<folder>images</folder>
 	</media>
 	<positions>
-	<position>logo</position>
-	<position>nav</position>
-	<position>content-header</position>
-	<position>footer</position>
+		<position>logo</position>
+		<position>nav</position>
+		<position>content-header</position>
+		<position>footer</position>
 	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="google">
+				<field name="tagmanager" type="textbox" default="" label="TPL_TTACTUA_TAGMANAGER" description="TPL_GILEBA_TAGMANAGER_DESC" />
+			</fieldset>
+
+		</fields>
+	</config>
 </extension>
