@@ -16,6 +16,11 @@
 		<filename>joomla.asset.json</filename>
 		<filename>templateDetails.xml</filename>
 	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_ttactua.ini</language>
+		<language tag="nl-BE">nl-BE/nl-BE.tpl_ttactua.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.tpl_ttactua.ini</language>
+	</languages>
 	<media destination="templates/site/ttactua" folder="media">
 		<folder>css</folder>
 		<folder>scss</folder>
@@ -30,7 +35,7 @@
 	<config>
 		<fields name="params">
 			<fieldset name="google">
-				<field name="tagmanager" type="textbox" default="" label="TPL_TTACTUA_TAGMANAGER" description="TPL_GILEBA_TAGMANAGER_DESC" />
+				<field name="tagmanager" type="textbox" default="" label="TPL_TTACTUA_TAGMANAGER" description="TPL_TTACTUA_TAGMANAGER_DESC" />
 			</fieldset>
 
 		</fields>
