@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>TTactua Template</name>
+		<description>J4! Template for tafeltennisactua.be</description>
+		<element>tpl_ttactua</element>
+		<type>template</type>
+		<client>site</client>
+		<version>1.1.0</version>
+		<infourl title="TTactua Template">https://github.com/gileba-org/tpl_ttactua</infourl>
+		<changelogurl>https://gileba.be/changelogs/tpl_ttactua.xml</changelogurl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/gileba-org/ttactua/releases/download/1.1.0/tpl_ttactua.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<targetplatform name="joomla" version="4"/>
+	</update>
+</updates>
