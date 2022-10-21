@@ -1,0 +1,3 @@
+<p>{wedstrijdhoofding stand:="" home:="" away:=""}</p>
+<p>{wedstrijdduel stand:="" home:="" away:="" sets:="" details=""}</p>
+<p>{wedstrijdlaatsteduel stand:="" home:="" away:="" sets:="" details=""}</p>
