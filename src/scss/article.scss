@@ -1,7 +1,29 @@
 @use "contentcommon";
+@use "button";
 
 .com-content-article {
 	padding: 0 20px;
+
+	nav .pagination {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "Previous Next";
+
+		a {
+			@include button.readmore;
+			padding-top: 6px !important;
+			margin: auto;
+			text-decoration: none;
+		}
+
+		.next {
+			grid-area: Next;
+		}
+
+		.visually-hidden {
+			display: none;
+		}
+	}
 
 	.com-content-article__body {
 		.fulltext {
