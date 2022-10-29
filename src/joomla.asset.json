@@ -36,6 +36,15 @@
 		]
 	},
 	{
+	  "name": "template.ttactua.tags",
+	  "type": "style",
+	  "uri": "tags.css",
+	  "dependencies": [
+		"template.ttactua.base"
+	  ]
+	},
+	{
+	  "name": "template.ttactua.tag",
 	  "type": "style",
 	  "uri": "tag.css"
 	},

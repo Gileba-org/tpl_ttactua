@@ -37,6 +37,8 @@
 				break;
 			case "com_convertforms":
 				$wa->useStyle('template.ttactua.form');
+			case "com_tags":
+				$wa->useStyle('template.ttactua.tags');
 			default:
 				$wa->useStyle('template.ttactua.base');
 		}
