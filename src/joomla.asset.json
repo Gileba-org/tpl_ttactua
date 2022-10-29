@@ -30,15 +30,14 @@
 	  "uri": "article.css",
 	  "dependencies": [
 		  "template.ttactua.base",
-		  "template.ttactua.tags",
+		  "template.ttactua.tag",
 		  "template.ttactua.date",
 		  "template.ttactua.results"
 		]
 	},
 	{
-	  "name": "template.ttactua.tags",
 	  "type": "style",
-	  "uri": "tags.css"
+	  "uri": "tag.css"
 	},
 	{
 	  "name": "template.ttactua.date",
