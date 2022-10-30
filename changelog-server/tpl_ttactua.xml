@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs>
 	<changelog>
+	<element>mod_ttstand</element>
+	<type>module</type>
+	<version>1.2.0</version>
+	<new>
+		<item>Add basic styling to Joomla tags</item>
+		<item>Style "previous" and "next" buttons in articles</item>
+		<item>Add TinyMCE template for game results</item>
+	</new>
+	<changes>
+		<item>Show intro_image on homepage (in stead of full_image)</item>
+	</changes>
+	</changelog>
+	<changelog>
 		<element>mod_ttstand</element>
 		<type>module</type>
 		<version>1.1.0</version>
@@ -11,7 +24,7 @@
 		</new>
 		<changes>
 			<item>Content parity</item>
-			<item>Load FontAwesome on every page
+			<item>Load FontAwesome on every page</item>
 		</changes>
 		<fix>
 			<item>Add CSS-folder to template as well as backup for the media folder</item>
