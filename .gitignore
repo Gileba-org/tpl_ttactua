@@ -706,3 +706,4 @@
 .DS_Store
 .nova/Configuration.json
 .nova/Publishing/Gileba.json
+.nova/Artwork
