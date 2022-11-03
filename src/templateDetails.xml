@@ -7,7 +7,7 @@
 	<authorUrl>https://gileba.be/</authorUrl>
 	<copyright>(c)2022 by Gileba</copyright>
 	<license>GNU/GPL</license>
-	<version>1.2.1</version>
+	<version>1.2.2</version>
 	<description>J4 template for Tafeltennisactua.be</description>
 	<updateservers>
 		<server type="extension" priority="1" name="TTactua Template Update Site">https://gileba.be/updates/tpl_ttactua.xml</server>

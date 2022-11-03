@@ -3,6 +3,17 @@
 	<changelog>
 		<element>mod_ttstand</element>
 		<type>module</type>
+		<version>1.2.2</version>
+		<new>
+			<item>Add date to list view of a tag</item>
+		</new>
+		<changes>
+			<fix>Show correct date in tag list</fix>
+		</changes>
+	</changelog>
+	<changelog>
+		<element>mod_ttstand</element>
+		<type>module</type>
 		<version>1.2.1</version>
 		<new>
 			<item>Add date to list view of a tag</item>
