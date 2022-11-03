@@ -40,7 +40,8 @@
 	  "type": "style",
 	  "uri": "tags.css",
 	  "dependencies": [
-		"template.ttactua.base"
+		"template.ttactua.base",
+		"template.ttactua.date"
 	  ]
 	},
 	{
