@@ -1,16 +1,31 @@
 .com-tags__items {
-	ul {
+	.com-tags-tag__category {
 		list-style: none;
 
 		li {
-			a {
-				color: var(--text-color);
-				text-decoration: none;
+			display: flex;
 
-				@media (prefers-color-scheme: dark) {
-					color: var(--dark-text-color);
+			.ball {
+				.date-container {
+					height: 44px;
+					width: 48px;
+					font-size: 0.6em;
 				}
 			}
+
+			h3 {
+				align-self: center;
+
+				a {
+					color: var(--text-color);
+					text-decoration: none;
+
+					@media (prefers-color-scheme: dark) {
+						color: var(--dark-text-color);
+					}
+				}
+			}
+
 		}
 	}
 }
