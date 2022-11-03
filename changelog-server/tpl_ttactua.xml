@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs>
 	<changelog>
-	<element>mod_ttstand</element>
-	<type>module</type>
-	<version>1.2.0</version>
-	<new>
-		<item>Add basic styling to Joomla tags</item>
-		<item>Style "previous" and "next" buttons in articles</item>
-		<item>Add TinyMCE template for game results</item>
-	</new>
-	<changes>
-		<item>Show intro_image on homepage (in stead of full_image)</item>
-	</changes>
+		<element>mod_ttstand</element>
+		<type>module</type>
+		<version>1.2.1</version>
+		<new>
+			<item>Add date to list view of a tag</item>
+		</new>
+		<changes>
+			<item>Show intro_image on homepage (in stead of full_image)</item>
+		</changes>
+	</changelog>
+	<changelog>
+		<element>mod_ttstand</element>
+		<type>module</type>
+		<version>1.2.0</version>
+		<new>
+			<item>Add basic styling to Joomla tags</item>
+			<item>Style "previous" and "next" buttons in articles</item>
+			<item>Add TinyMCE template for game results</item>
+		</new>
+		<changes>
+			<item>Show intro_image on homepage (in stead of full_image)</item>
+		</changes>
 	</changelog>
 	<changelog>
 		<element>mod_ttstand</element>
