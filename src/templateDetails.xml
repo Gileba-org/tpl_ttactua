@@ -39,7 +39,10 @@
 	<config>
 		<fields name="params">
 			<fieldset name="google">
+				<field type="spacer" name="tagmanager-header" label="&lt;strong&gt;Google Tag Manager&lt;/strong&gt;" />
 				<field name="tagmanager" type="textbox" default="" label="TPL_TTACTUA_TAGMANAGER" description="TPL_TTACTUA_TAGMANAGER_DESC" />
+				<field type="spacer" name="ads-header" label="&lt;strong&gt;Google Ads&lt;/strong&gt;" />
+				<field name="publisherid" type="textbox" default="" label="TPL_TTACTUA_PUBLISHERID" description="TPL_TTACTUA_PUBLISHERID_DESC" />
 			</fieldset>
 
 		</fields>
