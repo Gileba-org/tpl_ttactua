@@ -75,7 +75,6 @@
 <?php	if ($this->params->get('publisherid')) {	?>
 			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-<?php echo $this->params->get('googleads'); ?>" crossorigin="anonymous"></script>
 <?php	}	?>
-		<div style="display: none">Option: <?php echo $page['option'];?>; View: <?php echo $page['view']; ?>; Layout: <?php echo $page['layout'] ?>;</div>
 		<div class="header">
 			<div class="logo">
 				<a href="" alt="Home"><img src="media/templates/site/ttactua/images/logo.jpg" /></a>
