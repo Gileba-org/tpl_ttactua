@@ -22,6 +22,7 @@ use Joomla\Component\Content\Site\Helper\RouteHelper;
 $params = $this->item->params;
 $canEdit = $this->item->params->get('access-edit');
 $info    = $params->get('info_block_position', 0);
+$template   = $app->getTemplate(true);
 
 // Check if associations are implemented. If they are, define the parameter.
 $assocParam = (Associations::isEnabled() && $params->get('show_associations'));
@@ -69,6 +70,11 @@ $isUnpublished = ($this->item->state == ContentComponent::CONDITION_UNPUBLISHED 
     <div class="introtext">
         <?php echo $this->item->introtext; ?>
     </div>
+    <?php if ($template->params->get('publisherid')) :	?>
+        <div class="banner">
+            {modulepos position="banner-article"}
+        </div>
+    <?php endif;
 
     <?php if ($info == 1 || $info == 2) : ?>
         <?php if ($useDefList) : ?>
