@@ -19,7 +19,7 @@ $authorised = Factory::getUser()->getAuthorisedViewLevels();
 ?>
 
 <?php if (!empty($displayData)) : ?>
-	<div>
+	<div class="tags-container">
 		<?php
 			$parents = array_column($displayData, 'parent_id');
 			$titles = array_column($displayData, 'title');
