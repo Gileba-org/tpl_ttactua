@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs>
 	<changelog>
-		<element>mod_ttstand</element>
-		<type>module</type>
+		<element>tpl_ttactua</element>
+		<type>template</type>
+		<version>1.3.1</version>
+		<new>
+			<item>Add banner position in article</item>
+			<item>Tag descriptions</item>
+		</new>
+		<changes>
+			<item>Add padding to tag list in article</item>
+			<item>Responsive mainbanner</item>
+		</changes>
+		<fix>
+			<item>Correct use of FontAwesome in DJMenu</item>
+			<item>Typo in content-header grid</item>
+			<item>Logo SEO</item>
+			<item>Google Ads template parameter</item>
+		</fix>
+		<remove>
+			<item>Debug text</item>
+		</remove>
+	</changelog>
+	<changelog>
+		<element>tpl_ttactua</element>
+		<type>template</type>
 		<version>1.3.0</version>
 		<new>
 			<item>Add support for Google Ads</item>
@@ -10,8 +32,8 @@
 		</new>
 	</changelog>
 	<changelog>
-		<element>mod_ttstand</element>
-		<type>module</type>
+		<element>tpl_ttactua</element>
+		<type>template</type>
 		<version>1.2.2</version>
 		<new>
 			<item>Add date to list view of a tag</item>
@@ -21,8 +43,8 @@
 		</changes>
 	</changelog>
 	<changelog>
-		<element>mod_ttstand</element>
-		<type>module</type>
+		<element>tpl_ttactua</element>
+		<type>template</type>
 		<version>1.2.1</version>
 		<new>
 			<item>Add date to list view of a tag</item>
@@ -32,8 +54,8 @@
 		</changes>
 	</changelog>
 	<changelog>
-		<element>mod_ttstand</element>
-		<type>module</type>
+		<element>tpl_ttactua</element>
+		<type>template</type>
 		<version>1.2.0</version>
 		<new>
 			<item>Add basic styling to Joomla tags</item>
@@ -45,8 +67,8 @@
 		</changes>
 	</changelog>
 	<changelog>
-		<element>mod_ttstand</element>
-		<type>module</type>
+		<element>tpl_ttactua</element>
+		<type>template</type>
 		<version>1.1.0</version>
 		<new>
 			<item>Add support for Google Tags</item>
