@@ -77,7 +77,7 @@
 <?php	}	?>
 		<div class="header">
 			<div class="logo">
-				<a href="" alt="Home"><img src="media/templates/site/ttactua/images/logo.jpg" alt="Logo" /></a>
+				<a href=""><img src="media/templates/site/ttactua/images/logo.jpg" alt="Logo" /></a>
 				<jdoc:include type="modules" name="logo" />
 			</div>
 			<div class="nav">
