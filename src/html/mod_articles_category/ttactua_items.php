@@ -16,7 +16,7 @@ use Joomla\CMS\Layout\LayoutHelper;
 
 ?>
 <?php foreach ($items as $item) : ?>
-<div>
+<div itemscope>
     <?php echo LayoutHelper::render('joomla.content.intro_image', $item); ?>
     <?php $attributes = ['class' => 'mod-articles-category-title ' . $item->active]; ?>
     <?php $link = htmlspecialchars($item->link, ENT_COMPAT, 'UTF-8', false); ?>
