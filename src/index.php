@@ -76,10 +76,10 @@
 			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-<?php echo $this->params->get('googleads'); ?>" crossorigin="anonymous"></script>
 <?php	}	?>
 		<div class="header">
-			<div class="logo">
+			<h1 class="logo">
 				<a href=""><img src="media/templates/site/ttactua/images/logo.jpg" alt="Logo" /></a>
 				<jdoc:include type="modules" name="logo" />
-			</div>
+			</h1>
 			<div class="nav">
 				<jdoc:include type="modules" name="nav" />
 			</div>
