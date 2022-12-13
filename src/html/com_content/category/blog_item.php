@@ -19,6 +19,7 @@ use Joomla\Component\Content\Administrator\Extension\ContentComponent;
 use Joomla\Component\Content\Site\Helper\RouteHelper;
 
 // Create a shortcut for params.
+$app = Factory::getApplication();
 $params = $this->item->params;
 $canEdit = $this->item->params->get('access-edit');
 $info    = $params->get('info_block_position', 0);
@@ -74,7 +75,7 @@ $isUnpublished = ($this->item->state == ContentComponent::CONDITION_UNPUBLISHED 
         <div class="banner">
             {modulepos position="banner-article"}
         </div>
-    <?php endif;
+    <?php endif; ?>
 
     <?php if ($info == 1 || $info == 2) : ?>
         <?php if ($useDefList) : ?>
