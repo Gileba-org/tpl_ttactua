@@ -3,9 +3,10 @@
 .csvtable.stand {
 	border-collapse: collapse;
 	margin: auto;
+	min-width: 50%;
 
 	tr:nth-child(odd) {
-		background-color: white;
+		background-color: lighten(variables.$base-color, 60%);
 		color: var(--text-color);
 	}
 
@@ -43,7 +44,7 @@
 
 		tr:last-child, tr:nth-last-child(2) {
 			background-color: #F08080;
-			color: white;
+			color: var(--text-color);
 		}
 
 		td:not(:nth-child(2)) {
