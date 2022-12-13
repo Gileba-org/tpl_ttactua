@@ -32,7 +32,8 @@
 		  "template.ttactua.base",
 		  "template.ttactua.tag",
 		  "template.ttactua.date",
-		  "template.ttactua.results"
+		  "template.ttactua.results",
+		  "template.ttactua.standings"
 		]
 	},
 	{
@@ -98,6 +99,11 @@
 	  "name": "template.ttactua.footer",
 	  "type": "style",
 	  "uri": "footer.css"
+	},
+	{
+	  "name": "template.ttactua.standings",
+	  "type": "style",
+	  "uri": "standings.css"
 	},
 	{
 	  "name": "fontawesome",

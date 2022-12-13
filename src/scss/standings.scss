@@ -1,0 +1,58 @@
+@use "variables";
+
+.csvtable.stand {
+	border-collapse: collapse;
+	margin: auto;
+
+	tr:nth-child(odd) {
+		background-color: white;
+		color: var(--text-color);
+	}
+
+	tr:nth-child(even) {
+		background-color: lighten(variables.$base-color, 50%);
+		color: var(--text-color);
+	}
+
+	tr:first-child {
+		background-color: lighten(variables.$base-color, 30%);
+		font-weight: bold;
+
+		td:first-child {
+			border-top-left-radius: 10px;
+		}
+		td:last-child {
+			border-top-right-radius: 10px;
+		}
+	}
+
+	tr:last-child {
+		td:first-child {
+			border-bottom-left-radius: 10px;
+		}
+		td:last-child {
+			border-bottom-right-radius: 10px;
+		}
+	}
+
+	&.superdivisie {
+		tr:nth-child(2) {
+			background-color: #98FB98;
+			color: var(--text-color);
+		}
+
+		tr:last-child, tr:nth-last-child(2) {
+			background-color: #F08080;
+			color: white;
+		}
+
+		td:not(:nth-child(2)) {
+			text-align: center;
+		}
+	}
+
+	td {
+		padding: 3px 10px;
+		min-width: 30px;
+	}
+}
