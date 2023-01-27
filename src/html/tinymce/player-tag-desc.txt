@@ -1,3 +1,13 @@
 <dl>
-<dt>Leeftijd</dt><dd></dd>
+<dt>Leeftijd</dt>
+<dd> jaar <span style="font-size: small;">()</span></dd>
+<dt>Klassement</dt>
+<dd><span class="seizoen">2022-2023</span></dd>
+<dt>Wereldranglijst</dt>
+<dd><span class="leeftijdsreeks">Senior</span></dd>
+<dt>Clubs</dt>
+<dd><span class="seizoen">2022-2023</span> <span style="font-size: small;">()</span></dd>
+<dt>Varia</dt>
+<dd><span style="font-size: small;">()</span></dd>
 </dl>
+<p> </p>
