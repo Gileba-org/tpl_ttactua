@@ -84,7 +84,7 @@ $canEditState = $user->authorise('core.edit.state', 'com_tags');
                     </h3>
                 <?php else : ?>
                     <?php $item->publish_up = $item->core_publish_up; ?>
-                    <?php echo LayoutHelper::render('joomla.content.info_block.publish_date', array('item' => $item));  ?>
+                    <?php echo LayoutHelper::render('joomla.content.info_block.publish_date', ['item' => $item]);  ?>
                     <h3>
                         <a href="<?php echo Route::_($item->link); ?>">
                             <?php echo $this->escape($item->core_title); ?>
