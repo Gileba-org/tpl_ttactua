@@ -66,7 +66,7 @@ $isExpired         = !is_null($this->item->publish_down) && $this->item->publish
     <?php echo $this->item->event->afterDisplayTitle; ?>
 
     <?php if ($useDefList && ($info == 0 || $info == 2)) : ?>
-        <?php echo LayoutHelper::render('joomla.content.info_block', array('item' => $this->item, 'params' => $params, 'position' => 'above')); ?>
+        <?php echo LayoutHelper::render('joomla.content.info_block', ['item' => $this->item, 'params' => $params, 'position' => 'above']); ?>
     <?php endif; ?>
 
     <?php if ($info == 0 && $params->get('show_tags', 1) && !empty($this->item->tags->itemTags)) : ?>
@@ -95,7 +95,7 @@ $isExpired         = !is_null($this->item->publish_down) && $this->item->publish
         <div class="introtext">
         <?php
             if ($params->get('show_modify_date') || $params->get('show_publish_date') || $params->get('show_create_date')) {
-                echo LayoutHelper::render('joomla.content.info_block.publish_date', array('item' => $this->item, 'params' => $params, 'position' => 'below'));
+                echo LayoutHelper::render('joomla.content.info_block.publish_date', ['item' => $this->item, 'params' => $params, 'position' => 'below']);
             }
         ?>
             <?php echo $this->item->introtext; ?>
@@ -107,7 +107,7 @@ $isExpired         = !is_null($this->item->publish_down) && $this->item->publish
 
         <?php if ($info == 1 || $info == 2) : ?>
             <?php if ($useDefList) : ?>
-                <?php echo LayoutHelper::render('joomla.content.info_block', array('item' => $this->item, 'params' => $params, 'position' => 'below')); ?>
+                <?php echo LayoutHelper::render('joomla.content.info_block', ['item' => $this->item, 'params' => $params, 'position' => 'below']); ?>
             <?php endif; ?>
             <?php if ($params->get('show_tags', 1) && !empty($this->item->tags->itemTags)) : ?>
                 <?php $this->item->tagLayout = new FileLayout('joomla.content.tags'); ?>
@@ -134,7 +134,7 @@ $isExpired         = !is_null($this->item->publish_down) && $this->item->publish
             <?php $itemId = $active->id; ?>
             <?php $link = new Uri(Route::_('index.php?option=com_users&view=login&Itemid=' . $itemId, false)); ?>
             <?php $link->setVar('return', base64_encode(RouteHelper::getArticleRoute($this->item->slug, $this->item->catid, $this->item->language))); ?>
-            <?php echo LayoutHelper::render('joomla.content.readmore', array('item' => $this->item, 'params' => $params, 'link' => $link)); ?>
+            <?php echo LayoutHelper::render('joomla.content.readmore', ['item' => $this->item, 'params' => $params, 'link' => $link]); ?>
         <?php endif; ?>
     <?php endif; ?>
     <?php
