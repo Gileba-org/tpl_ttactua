@@ -28,7 +28,7 @@ $authorised = Factory::getUser()->getAuthorisedViewLevels();
 			$currentParent = 0;
 		?>
 		<?php foreach ($displayData as $i => $tag) : ?>
-			<?php if (in_[$tag->access, $authorised]) : ?>
+			<?php if (in_array($tag->access, $authorised)) : ?>
 				<?php if (($currentParent <> $tag->parent_id) && ($currentParent <> 0)) : ?>
 					</ul>
 				<?php endif; ?>
